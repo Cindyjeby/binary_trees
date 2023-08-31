@@ -53,7 +53,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 		return (0);
 
 	subright = binary_tree_height(right);
-	sunleft = binary_tree_height(left);
+	subleft = binary_tree_height(left);
 
 	if (subright == subleft)
 
